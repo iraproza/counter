@@ -62,9 +62,7 @@ div {
 }
 /*Prevent text selection*/
 span{
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
+
   margin-right: 15px;
 }
 input{  
