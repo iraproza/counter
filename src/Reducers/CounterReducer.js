@@ -12,6 +12,22 @@ const CounterReducer = (state = initialState, action) => {
             return {
                 counter: state.counter-=1
             }
+        case "MINUSTWO": 
+            return {
+                counter: state.counter-=2
+            }
+        case "PLUSTWO": 
+            return {
+                counter: state.counter+=2
+            }
+        case "MULTIPLY": 
+            return {
+                counter: state.counter*=2
+            }
+        case "RESET": 
+            return {
+                counter: 0
+            }
         default: 
             return state;
     }

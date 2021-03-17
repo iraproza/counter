@@ -16,23 +16,40 @@
   display: inline-block;
   vertical-align: top;
   color: white;
-  width: 30px;
-  height: 30px;
-  font: 30px/1 Arial,sans-serif;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font: 37px/1 Arial,sans-serif;
   text-align: center;
   border-radius: 50%;
   }
-.qty .minus {
+.qty .minus,
+.qty .reset {
   cursor: pointer;
   display: inline-block;
   vertical-align: top;
   color: white;
-  width: 30px;
-  height: 30px;
-  font: 30px/1 Arial,sans-serif;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font: 34px/1 Arial,sans-serif;
   text-align: center;
   border-radius: 50%;
   background-clip: padding-box;
+}
+.qty .two-change{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 30px;
+  text-align: center;
+}
+.qty .reset{
+  line-height: 40px;
+  width: 120px;
+  border-radius: 5px;
+  font-size: 22px;
+  color: white;
 }
 div {
   text-align: center;
@@ -48,10 +65,12 @@ span{
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
+  margin-right: 15px;
 }
 input{  
   border: 0;
   width: 2%;
+  margin-right: 15px;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
